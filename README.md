@@ -190,15 +190,15 @@ cp -r target/site/apidocs/* docs/
 | 1 | Репозиторій, Maven-структура, pom.xml (JavaFX + JDBC) | Team Lead |
 | 2 | SQL-скрипти: створення таблиць, довідники | Team Lead |
 | 3 | Entity-класи: `Movie`, `Viewer`, `Rating` + JavaDoc | Developer 1 |
-| 4 | Entity-класи: `Genre`, `Country` + `db.properties` | Developer 2 |
+| 4 | Entity-класи: `Genre`, `Country` + `db.properties` | Developer 1 |
 | 5 | `JDBCHelper` — підключення через db.properties | Team Lead |
-| 6 | `MovieDao` — CRUD + PreparedStatement + JavaDoc | Developer 1 |
-| 7 | `ViewerDao`, `RatingDao` — CRUD + PreparedStatement | Developer 2 |
-| 8 | Бізнес-логіка: рейтинг > 10 голосів, аналітика | Team Lead |
-| 9 | FXML + Controller: головний екран, TableView | Developer 1 |
+| 6 | `MovieDao` — CRUD + PreparedStatement + JavaDoc | Team Lead |
+| 7 | `ViewerDao`, `RatingDao` — CRUD + PreparedStatement | Team Lead |
+| 8 | Бізнес-логіка: рейтинг > 10 голосів, аналітика | Developer 1 |
+| 9 | FXML + Controller: головний екран, TableView | Developer 2 |
 | 10 | FXML + Controller: форма додавання/редагування, валідація | Developer 2 |
-| 11 | Блок пошуку (2+ критерії), повідомлення про помилки | Developer 1 |
-| 12 | Тестові дані (SQL INSERT), наповнення БД | Developer 2 |
+| 11 | Блок пошуку (2+ критерії), повідомлення про помилки | Developer 2 |
+| 12 | Тестові дані (SQL INSERT), наповнення БД | Team Lead |
 | 13 | Генерація JavaDoc → папка `docs/` | Team Lead |
 | 14 | Тестування, виправлення помилок | Всі |
 | 15 | Фінальний коміт, оформлення README | Team Lead |
